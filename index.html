@@ -1,0 +1,422 @@
+<link rel="stylesheet" href="styles.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,400;0,700;1,400;1,700&family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Noto+Sans+Mono:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/860e19f8d2.js"></script>
+
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+<div id="bg"></div>
+
+<div id="wrapper">
+<div class="galaxy">
+<div class="bgim2"></div>
+<div class="bgim">
+
+<div class="side">
+<div class="menu"><span class="iconify" data-icon="eva:menu-outline"></span></div>
+
+<div style="position:absolute; left: -150px; top: 60px;">
+<svg xmlns="http://www.w3.org/2000/svg" width="443" height="519" viewBox="0 0 443 519"> <defs> <style> .cls-1 { fill: rgba(209,118,156,0.3); stroke: rgba(209,118,156,0.6); stroke-width: 1px; fill-rule: evenodd; } </style> </defs> <path class="cls-1" d="M426,456s65-224-104-215S373-41,152,7,9,503,9,503,360,563,426,456Z"/> </svg>
+</div>
+    
+<div class="welcome">
+<div class="wbell"><span class="iconify" data-icon="clarity:bell-solid-badged"></span></div>   
+ 
+<div class="wmssg">quien chota sos?</div>
+
+<div class="winfo">fijate en la letra fijate en la letra.</div>
+ 
+</div> 
+
+<div class="sbot">
+</div>
+
+<a href="javascript:void(0)" class="linkie" onclick="openCity(event, 'music')">
+<div class="bmore"><span class="iconify" data-icon="fa-solid:music"></span></div>
+</a>
+
+</div>
+
+<!--- links --->
+<div class="lowbar">
+
+<div class="tab">
+
+<p>
+Flashaste gordito
+</p>
+
+</div></div>  
+
+</div>
+
+<!--- repructor de musica --->
+<div id="music" class="tabcontent">
+    
+    <div class="player">
+
+        <div class="player__header">
+    
+          <div class="player__img player__img--absolute slider">
+    
+            <button class="player__button player__button--absolute--nw playlist">
+    
+              <img src="playlist.svg" alt="playlist-icon">
+    
+            </button>
+    
+            <button class="player__button player__button--absolute--center play">
+    
+              <img src="play.svg" alt="play-icon">
+              <img src="pause.svg" alt="pause-icon">
+    
+            </button>
+    
+            <div class="slider__content">
+    
+              <img class="img slider__img" src="saraalbum.png" alt="cover">
+              <img class="img slider__img" src="guchipolo.jpg" alt="cover">
+              <img class="img slider__img" src="dillom.png" alt="cover">
+              <img class="img slider__img" src="tomboy.png" alt="cover">
+              <img class="img slider__img" src="saraalbum.png" alt="cover">
+              <img class="img slider__img" src="kify.jpg" alt="cover">
+              <img class="img slider__img" src="rojuu.jpg" alt="cover">
+    
+            </div>
+    
+          </div>
+    
+          <div class="player__controls">
+    
+            <button class="player__button back">
+    
+              <img class="img" src="back.svg" alt="back-icon">
+    
+            </button>
+            
+            <p class="player__context slider__context">
+    
+              <strong class="slider__name"></strong>
+              <span class="player__title slider__title"></span>
+    
+            </p>
+    
+            <button class="player__button next">
+    
+              <img class="img" src="next.svg" alt="next-icon">
+    
+            </button>
+    
+            <div class="progres">
+    
+              <div class="progres__filled"></div>
+    
+            </div>
+    
+          </div>
+    
+        </div>
+    
+        <ul class="player__playlist list">
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="saraalbum.png" alt="cover">
+    
+            <p class="player__context">
+    
+              <b class="player__song-name">BBYNOSE_147BPM9S</b>
+              <span class="flex">
+    
+                <span class="player__title">saramalacara x evar</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+    
+            </p>
+    
+            <audio class="audio" src="BBNOSE_147BPM9S.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="guchipolo.jpg" alt="cover">
+    
+            <p class="player__context">
+    
+              <b class="player__song-name">guchi polo</b>
+              <span class="flex">
+    
+                <span class="player__title">saramalacara</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+              
+            </p>
+    
+            <audio class="audio" src="guchipolo.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="dillom.png" alt="cover">
+    
+            <p class="player__context">
+    
+              <b class="player__song-name">rocketpowers</b>
+              <span class="flex">
+    
+                <span class="player__title">dillom, saramalacara</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+                
+            </p>
+    
+            <audio class="audio" src="rocketpowers.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="tomboy.png" alt="cover">
+    
+            <p class="player__context">
+    
+              <b class="player__song-name">tomboy</b>
+              <span class="flex">
+    
+                <span class="player__title">saramalacara</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+              
+            </p>
+    
+            <audio class="audio" src="tomboy.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="saraalbum.png" alt="cover">
+    
+            <p class="player__context ">
+    
+              <b class="player__song-name">WAIFU_153BPM2B</b>
+              <span class="flex">
+    
+                <span class="player__title">saramalacara x evar</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+    
+            </p>
+    
+            <audio class="audio" src="WAIFU_153BPM2B.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="kify.jpg" alt="cover">
+    
+            <p class="player__context">
+    
+              <b class="player__song-name">Kifykify</b>
+              <span class="flex">
+    
+                <span class="player__title">bando ft saramalacara</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+    
+            </p>
+    
+            <audio class="audio" src="Kifykify.mp3"></audio>
+    
+          </li>
+    
+          <li class="player__song">
+    
+            <img class="player__img img" src="rojuu.jpg" alt="cover">
+    
+            <p class="player__context ">
+    
+              <b class="player__song-name">cuando sonries</b>
+              <span class="flex">
+    
+                <span class="player__title">rojuu ft. saramalacara</span>
+                <span class="player__song-time"></span>
+    
+              </span>
+    
+            </p>
+    
+            <audio class="audio" src="Cuando Sonries.mp3"></audio>
+    
+          </li>
+    
+        </ul>
+    
+      </div>
+
+      <span onclick="this.parentElement.style.display='none'"><div class="closetab">click to close tab</div></span>
+
+</div>
+<!--- fin del reproductor --->
+
+<div class="schat">
+<div class="ctitle">
+#chats
+<div class="cicon">
+<span class="iconify" data-icon="fluent:chat-settings-24-regular"></span>    
+</div>
+</div>
+
+<div class="chat1">
+<div class="contact" style="border: 1px solid #d1769c;">
+<img draggable="false" src="chungha.jpg">    
+</div>
+<div class="mssg">
+<div class="cname" style="color: #F9AF34">bebé</div> 
+<div class="cmg">aaay yaaaaaa</div> 
+</div>
+</div>
+
+<div style="width: 200px; height: 40px; position: absolute; left: 15px; top: 105px;">
+<div class="contact"><img draggable="false" src="yzy.png">  </div>
+<div class="mssg">
+<div class="cname">yzy e</div> 
+<div class="cmg">que cornuda que sos hermana xd</div> 
+</div>
+</div>
+
+<div style="width: 200px; height: 40px; position: absolute; left: 15px; top: 160px;">
+<div class="contact" style="border: 1px solid #d1769c;"><img draggable="false" src="cazzu.png">  </div>
+<div class="mssg">
+<div class="cname" style="color: #F9AF34">t.y.u</div> 
+<div class="cmg">luli deja de cambiarte el icono xd</div> 
+</div>
+</div>
+
+<div style="width: 200px; height: 40px; position: absolute; left: 15px; top: 215px;">
+<div class="contact"><img draggable="false" src="dillom2.png">  </div>
+<div class="mssg">
+<div class="cname">chima</div> 
+<div class="cmg">هاها ليس لدي كأس العالم</div> 
+</div>
+</div>
+
+<div class="search">
+<div style="width: 100px; height: 20px; position: absolute; left: 15px; top: 7px;"><span class="iconify" data-icon="fluent:search-12-filled" style="margin-right: 5px; color: #F9AF34;"></span> search...</div>
+    
+</div>
+</div>
+
+
+
+<div class="sidebar">
+<img draggable="false" src="saramalacara1.png">
+<div class="sids">
+<div class="decors"></div>
+<div class="sdesc">les dices una verdad y te inventan tres mentiras, todos iguales no se salva uno. -duki </div>
+</div>  
+<div class="sidie"></div>
+</div>
+
+
+<div id="index" class="tabcontent1" style="display:block; z-index: 99;">
+
+
+<!--- tab #1: nav ---> 
+
+<div id="nav">
+
+    <div class="ntab">
+    <div class="iuser"><span class="iconify" data-icon="fa-solid:user"></span></div>
+    
+    <div class="iicon"><span class="iconify" data-icon="ph:umbrella-simple-duotone"></span></div>
+    
+    <div class="uname">written by lu.</div>  
+    
+    <div class="idraft" title="drafts"><span class="iconify" data-icon="clarity:pencil-solid"></span></div>
+    
+    <div class="dname">261.</div>
+    
+    <div class="iask" title="inbox"><span class="iconify" data-icon="jam:messages"></span></div>
+    
+    <div class="aname">021.</div>
+    
+    </div>
+    
+    <div class="tab1">
+    <div class="ttt">
+    <div class="ticons"><span class="iconify" data-icon="fontisto:radio-btn-passive"></span> <span class="iconify" data-icon="fontisto:close"></span></div>    
+    </div>
+    <div class="tim"><img draggable="false" src="saramalacara3.png"></div>
+    </div>
+    
+    <div class="tab2">
+    
+    <div class="spot"><span class="iconify" data-icon="cib:spotify"></span></div>
+    
+    <div class="song1"><img draggable="false" src="saraalbum.png">  </div>
+    
+    <div class="song2"><img draggable="false" src="https://assets.tumblr.com/images/x.gif?v=1"></div>
+    
+    <div class="song3"><img draggable="false" src="https://assets.tumblr.com/images/x.gif?v=1"></div>
+    
+    <div class="song4"><img draggable="false" src="https://assets.tumblr.com/images/x.gif?v=1"></div>
+    
+    <div class="song5"><img draggable="false" src="https://assets.tumblr.com/images/x.gif?v=1"></div>
+    
+    <div class="sginfo">
+    <div class="songt">BBYNOSE_147BPM9S</div>
+    <div class="sartist">saramalacara x evar</div>
+    </div>
+    
+    </div>
+    
+    <div class="tab5">
+    <div class="tnotes"><span class="iconify" data-icon="ep:arrow-left-bold" style="margin-right: 5px;"></span> notes </div>
+    <div class="tnav">Lionel Andrés Messi Cuccittini, conocido como Leo Messi, es un futbolista argentino que juega como delantero o centrocampista. Jugador histórico del Fútbol Club Barcelona, al que estuvo ligado veinte años, desde 2021 integra el plantel del Paris Saint-Germain de la Ligue 1 de Francia.</div>
+    <div class="nticons">
+    <span class="iconify" data-icon="fa6-regular:trash-can"></span> 
+    <span class="iconify" data-icon="fluent:share-ios-48-filled"></span>
+    <span class="iconify" data-icon="jam:write-f"></span>
+    </div>
+    </div>
+    
+
+<div class="gbar">
+    
+<div class="icon"><img draggable="false" src="https://assets.tumblr.com/images/x.gif?v=1"></div> 
+
+<div class="dt1">
+<div class="dt2">#username:</div>
+<div class="dt3">kagura.</div>
+</div>
+
+<div class="dt4">
+<div class="dt5">#password:</div>
+<div class="dt6">••••••••••</div>
+</div>
+
+<div class="login">
+<div class="logs">log in</div>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<script src="index.js" charset="utf-8"></script>
+
